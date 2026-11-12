@@ -5,13 +5,10 @@
 let arr : number[] = [10,20,30,40,50]
 
 let result1 = arr.map((a,b,c) => a+5); // Assignment Operator
-console.log(result);
+console.log(result1);
 
 let result11 = arr.map((a,b,c) => b+5);
 console.log(result1);
-
-
-// accumulator not used in map and filter - it is used only in reduce
 
 // Filter
 // variable name.filter((value, index, accumulator) => )
@@ -20,6 +17,8 @@ let res1 = f.filter((x,y,z) => x<25)  // Relational Operator
 console.log(res1);
 let res2 = f.filter((x,y,z) => y<4)  // index // Relational Operator
 console.log(res2);
+
+// accumulator not used in map and filter - it is used only in reduce
 
 //Reduce
 //variable name.reduce((accumulator, current value) =>)
